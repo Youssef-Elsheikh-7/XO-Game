@@ -62,11 +62,11 @@ function winner() {
   ) {
     end(1, 5, 9);
   } else if (
-    boxArray[4] === boxArray[5] &&
+    boxArray[3] === boxArray[5] &&
     boxArray[5] === boxArray[7] &&
     boxArray[5] !== ""
   ) {
-    end(4, 5, 7);
+    end(3, 5, 7);
   }
 }
 
