@@ -9,10 +9,10 @@ function end(n1, n2, n3) {
   document.getElementById("item" + n3).style.backgroundColor = "#000";
   setInterval(() => {
     title.innerHTML += ".";
-  }, 1000);
+  }, 333);
   setTimeout(() => {
     location.reload();
-  }, 4000);
+  }, 1000);
 }
 
 function winner() {
